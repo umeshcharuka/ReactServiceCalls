@@ -10,6 +10,7 @@ class App extends Component {
     //   console.log("results are here", res);
     //   this.setState({posts:res.data})
     // })
+    //added comment
     fetch('http://localhost:3500/customer/getALLData')
       .then(response => response.json())
       .then(data => {
